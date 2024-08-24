@@ -44,7 +44,7 @@ function ServiceSection() {
             data-aos-duration={1500}
           >
             <div className="row">
-              <div className="col-lg-6 col-md-6">
+              <Col md={6}>
                 <div className="service-category">
                   <div className="service-icon">
                     <FontAwesomeIcon icon={faRobot} />
@@ -62,8 +62,9 @@ function ServiceSection() {
                     </Link>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-6 col-md-6">
+              </Col>
+
+              <Col md={6}>
                 <div className="service-category">
                   <div className="service-icon">
                     <FontAwesomeIcon icon={faUserGraduate} />
@@ -81,8 +82,9 @@ function ServiceSection() {
                     </Link>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-6 col-md-6">
+              </Col>
+
+              <Col md={6}>
                 <div className="service-category">
                   <div className="service-icon">
                     <FontAwesomeIcon icon={faPowerOff} />
@@ -100,8 +102,9 @@ function ServiceSection() {
                     </Link>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-6 col-md-6">
+              </Col>
+
+              <Col md={6}>
                 <div className="service-category">
                   <div className="service-icon">
                     <FontAwesomeIcon icon={faBrain} />
@@ -119,7 +122,7 @@ function ServiceSection() {
                     </Link>
                   </div>
                 </div>
-              </div>
+              </Col>
             </div>
           </Col>
         </Row>
