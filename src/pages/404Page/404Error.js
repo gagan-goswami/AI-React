@@ -23,7 +23,7 @@ function Error() {
                   <span className="title">Error: 404 page not found</span>
                   <p>Sorry, the page you're looking for cannot be accessed</p>
                   <div className="back-link">
-                    <Link to="/Home">Back To Home</Link>
+                    <Link to="/">Back To Home</Link>
                   </div>
                 </div>
               </Col>
