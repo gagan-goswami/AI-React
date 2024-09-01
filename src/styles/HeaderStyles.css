@@ -116,22 +116,6 @@
     color: var(--Secondary-color);
 }
 
-.header-section .btn a {
-    color: var(--white);
-    text-decoration: none;
-    background-color: var(--primary-color);
-    padding: 12px 10px;
-    font-size: 16px;
-    font-weight: 500;
-    border-radius: 5px;
-    transition: ease-in-out 0.5s;
-}
-
-.header-section .btn a:hover {
-    background-color: var(--white);
-    color: var(--dark);
-    transition: ease-in-out 0.5s;
-}
 
 /*========== menu bar-end =========*/
 /*========== header-end =========*/

@@ -17,7 +17,7 @@ function ServiceSection() {
           <Col
             lg={5}
             className="service-item"
-            data-aos="fade-up-right"
+            data-aos="fade-left"
             data-aos-duration={1500}
           >
             <div className="service-caption">
@@ -40,11 +40,11 @@ function ServiceSection() {
           <Col
             lg={7}
             className="service-item"
-            data-aos="fade-up-left"
+            data-aos="fade-left"
             data-aos-duration={1500}
           >
             <div className="row">
-              <Col md={6}>
+              <Col md={6} data-aos="fade-left" data-aos-duration={1500}>
                 <div className="service-category">
                   <div className="service-icon">
                     <FontAwesomeIcon icon={faRobot} />
@@ -64,7 +64,7 @@ function ServiceSection() {
                 </div>
               </Col>
 
-              <Col md={6}>
+              <Col md={6} data-aos="fade-left" data-aos-duration={1500}>
                 <div className="service-category">
                   <div className="service-icon">
                     <FontAwesomeIcon icon={faUserGraduate} />
@@ -84,7 +84,7 @@ function ServiceSection() {
                 </div>
               </Col>
 
-              <Col md={6}>
+              <Col md={6} data-aos="fade-left" data-aos-duration={1500}>
                 <div className="service-category">
                   <div className="service-icon">
                     <FontAwesomeIcon icon={faPowerOff} />
@@ -104,7 +104,7 @@ function ServiceSection() {
                 </div>
               </Col>
 
-              <Col md={6}>
+              <Col md={6} data-aos="fade-left" data-aos-duration={1500}>
                 <div className="service-category">
                   <div className="service-icon">
                     <FontAwesomeIcon icon={faBrain} />
